@@ -24,7 +24,7 @@ class_map_path = yamnet_model.class_map_path().numpy().decode('utf-8')
 class_names = [line.strip() for line in tf.io.gfile.GFile(class_map_path).readlines()]
 
 # ✅ IP Webcam URL
-url = 'http://10.69.80.108:8080/shot.jpg?resolution=1280x720'
+url = 'http://10.69.81.213:8080/shot.jpg?resolution=1280x720'
 
 # ✅ Cooldown timer for water detection alerts
 last_water_alert_time = 0  
